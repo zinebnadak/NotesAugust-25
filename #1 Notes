@@ -55,4 +55,16 @@ print(f'i={i} and j={j}')
 #adding "=" after variable to
 print (f'{i=} and {j=}')
 
+#another way to write calculation program with expression and formatspecifications
+answer = input ("give me a number")
+x= answer
+print(f"{x*x=:.2f}"")
 
+#arithmetic expressions = expressions resulting  a numerical value ex. 1+2 or 6/3. + and - are called numerical operations, while 1 and 2 är numerical operands.
+# An expression has a worth and a type
+
+# Here is a simple program that calculates a squares side. The program calculates perimeter and area!
+#user input
+#calculate perimeter
+#calculate area
+#print answer
