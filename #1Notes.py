@@ -56,10 +56,10 @@ print(f'i={i} and j={j}')
 #adding "=" after variable to
 print (f'{i=} and {j=}')
 
-#another way to write calculation program with expression and formatspecifications
-answer = input ("give me a number")
-x= answer
-print(f"{x*x=:.2f}"")
+
+#another way to write calculation program with expression and formatspecifications, OBS! INPUT FUNCTIONS ALWAYS RETURNS A STRING EVEN IF USER INPUTS A NUMBER
+x= float(input ("give me a number"))
+print(f"{x * x:.2f}")
 
 #arithmetic expressions = expressions resulting  a numerical value ex. 1+2 or 6/3. + and - are called numerical operations, while 1 and 2 är numerical operands.
 # An expression has a worth and a type
@@ -70,18 +70,23 @@ print(f"{x*x=:.2f}"")
 #calculate area
 #print answer
 
-#Lesson notes
+#LESSON NOTES
 #Exercise using the "math" module, which is not built in like ex. abs() or round():Cosine of 1, Cosine of pi, Cosine of 45 degrees (convert degrees to radians using an appropriate function, consult the documentation!), The square root of the cosine of 45 degrees
+
+#get empty line
+print ("Hello World!")
+print ()
+print ("that is how you get an empty line")
 
 import math
 #ex1
-print(pi)
+print(math.pi)
 
 #ex2
-print(sqrt(81))
+print(math.sqrt(81))
 
 #ex3
-print(sin(pi))
+print(math.sin(math.pi))
 
 #ex4
 x=45
@@ -93,9 +98,9 @@ print(result)
 print(math.cos(math.radians(45)))
 
 #ex5
-print(math.sqrt(math.cos(math.radians(45)))
+print(math.sqrt(math.cos(math.radians(45))))
 
-from math import pi, sqrt, co, radians #lets you use these without repeating math in your code and use "result" to print result
+from math import pi, sqrt, cos, radians #lets you use these without repeating math in your code and use "result" to print result
 
 result = sqrt(cos(radians(45)))
 print(result)
@@ -107,8 +112,8 @@ print ("Hello" ,str (123))
 #all these work, look up "PEP 8's style guide" for string quotes in PEP (The Python Enhancement Proposal (PEP) related to advanced string handling, particularly for creating reusable and structured text)
 
 #// gives us exact value of a calculation
-a=9
-b=4
+a=7
+b=3
 print(a//b)
 
 # % give us the remainder after division
