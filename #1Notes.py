@@ -111,6 +111,7 @@ print ("Hello","123")
 print ("Hello" ,str (123))
 #all these work, look up "PEP 8's style guide" for string quotes in PEP (The Python Enhancement Proposal (PEP) related to advanced string handling, particularly for creating reusable and structured text)
 
+#3 other Aritmetical operations, apart from +,-,/,*
 #// gives us exact value of a calculation
 a=7
 b=3
@@ -121,3 +122,8 @@ a=10
 b=3
 print(a%b)
 # answer gives us 1 because 3 goes exactly 3 times in 10 and rest is 1
+
+#** the first number (= to the power of) the second number
+a=2
+b=2
+print(a**b)
