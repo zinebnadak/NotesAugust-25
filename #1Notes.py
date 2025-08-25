@@ -53,8 +53,9 @@ i=3
 j=6
 print(f'i={i} and j={j}')
 
-#adding "=" after variable to
-print (f'{i=} and {j=}')
+#adding "=" after variable 
+
+
 
 
 #another way to write calculation program with expression and formatspecifications, OBS! INPUT FUNCTIONS ALWAYS RETURNS A STRING EVEN IF USER INPUTS A NUMBER
@@ -105,7 +106,7 @@ from math import pi, sqrt, cos, radians #lets you use these without repeating ma
 result = sqrt(cos(radians(45)))
 print(result)
 
-#specify strings using "str"":print ("Hello"+123) gives you error, compare:
+#specify strings using "str". print ("Hello"+123) gives you error, compare:
 print ("Hello"+" 123")
 print ("Hello","123")
 print ("Hello" ,str (123))
@@ -123,7 +124,7 @@ b=3
 print(a%b)
 # answer gives us 1 because 3 goes exactly 3 times in 10 and rest is 1
 
-#** the first number (= to the power of) the second number
+#** a number (= to the power of) a second number
 a=2
 b=2
 print(a**b)

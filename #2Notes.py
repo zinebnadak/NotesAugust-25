@@ -1,5 +1,5 @@
 #Now I will try something new. When I want to test if my code is runnable I don´t want to start from the beginning, I want to be able to run code from desired line - but  in Python you can´t directly start running a script from arbitrary line number!
-#Instead I split my code into parts using infunctions like this, giving me similar experience. (or you can just test the code by copiying and pasting a snippet in the python console tab)
+#Instead I split my code into parts using functions like this, giving me similar experience. (or you can just test the code by copiying and pasting a snippet in the python console tab)
 
 #def part1():
     #print("zineb")
@@ -49,7 +49,7 @@ def part2():
 #uniform (a,b) gives random number between a<x<b
 #randint (a,b) gives random integer number a<x<b
 #shuffle (lis) shuffles the elements in the list lis
-#smaple (sek,n) gives a list with n numbers of random elements from sequence sek
+#sample (sek,n) gives a list with n numbers of random elements from sequence sek
 
 
 def part3():
